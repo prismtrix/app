@@ -1,5 +1,3 @@
-const { table } = require('table')
-
 module.exports = {
     /**
     * @param { String } name Nome/Gatilho Do Comando
@@ -32,7 +30,7 @@ module.exports = {
         let cmds = []
 
         Commands.forEach((cmd) => {
-            cmds.push([`Nome: ${cmd.name}\nDescrição: ${cmd.description}\nApelidos: ${cmd.aliases.join(', ')}`])
+            cmds.push([`Nome: ${chalk.green(cmd.name)}\nDescrição: ${chalk.yellow(cmd.description)}\nApelidos: ${chalk.blueBright(cmd.aliases.join(', '))}`])
         })
 
         Client.tableString(cmds)

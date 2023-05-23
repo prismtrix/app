@@ -25,6 +25,6 @@ module.exports = {
     *   - Client.updateCommands();
     **/
     async run(Client) {
-        Client.end('Finalizando')
+        Client.end(chalk.red('Finalizando'));
     }
 }
