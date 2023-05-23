@@ -24,13 +24,17 @@ module.exports = {
     *   - Client.end(String?);
     *   - Client.updateCommands();
     * @param { Array } Commands - Retorna Um Array Com Os Comandos
+    * @param { Array } Packages - Retorna Um Array Com As Packages
     **/
-    async run(Client, Commands) {
+    async run(Client, Commands, Packages) {
 
         let cmds = []
 
         Commands.forEach((cmd) => {
             cmds.push([`Nome: ${chalk.green(cmd.name)}\nDescrição: ${chalk.yellow(cmd.description)}\nApelidos: ${chalk.blueBright(cmd.aliases.join(', '))}`])
+        })
+        Packages.forEach((pck) => {
+            cmds.push([chalk.yellow(`Módulo: ${pck.name} v${pck.version}\nDescrição: ${pck.description}`)])
         })
 
         Client.tableString(cmds)
