@@ -1,1 +1,1 @@
-console.log(`${chalk.green('[ CHANGELOGS ]')} As Seguintes Mudanças Foram Aplicadas: \n - Agora Possuimos Suporte Para Módulos Que Serão Disponibilizados Em Breve\n - A Versão Do Node Foi Atualizada Para A Mais Recente\n - Versão Atual: 1.4.3\n`)
+console.log(`${chalk.green('[ CHANGELOGS ]')} As Seguintes Mudanças Foram Aplicadas: \n - Sistema De Módulos Adicionado Definitivamente\n - Editado Cores Bases\n - Aplicativo Otimizado\n - Algoritmo De Erro Na Digitação Agora É Mais Leve e Eficaz\n - Versão Atual: 1.5\n`)
