@@ -1,1 +1,5 @@
-console.log(`${chalk.green('[ CHANGELOGS ]')} As Seguintes Mudanças Foram Aplicadas: \n - Sistema De Módulos Adicionado Definitivamente\n - Editado Cores Bases\n - Aplicativo Otimizado\n - Algoritmo De Erro Na Digitação Agora É Mais Leve e Eficaz\n - Versão Atual: 1.5\n`)
+console.log(
+  `${chalk.green(
+    "[ CHANGELOGS ]"
+  )} As Seguintes Mudanças Foram Aplicadas: \n - Nova Função Adicionada: Client.slowType(String)\n - Versão Atual: 1.6\n`
+);

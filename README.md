@@ -37,7 +37,7 @@ Para utilizar o módulo "Discord Webhook", siga os passos abaixo:
 1. Faça o download do módulo [aqui](https://www.mediafire.com/file/kc2ayfsswk6vnau/Package_Discord.zip/file) 📥.
 2. Após o download, extraia o conteúdo do arquivo zip.
 3. Crie uma pasta chamada "Packages" no diretório do aplicativo.
-4. Mova a pasta extraída ("Package_Discord") para dentro da pasta "Packages" que você criou.
+4. Mova a pasta extraída ("Package Discord") para dentro da pasta "Packages" que você criou.
 
 ### Sigilos 🔒✍️
 
@@ -49,7 +49,7 @@ Para utilizar o módulo "Sigilos", siga os passos abaixo:
 2. Após o download, extraia o conteúdo do arquivo zip.
 3. Dentro da pasta extraída, você encontrará uma fonte necessária para o funcionamento adequado do módulo. Instale essa fonte em seu sistema.
 4. Crie uma pasta chamada "Packages" no diretório do aplicativo, caso ainda não tenha feito isso.
-5. Mova a pasta extraída ("Package_Sigilos") para dentro da pasta "Packages" que você criou.
+5. Mova a pasta extraída ("Package Sigilos") para dentro da pasta "Packages" que você criou.
 
 Continue explorando os demais módulos disponíveis para aproveitar ao máximo as capacidades do aplicativo. 🚀
 
